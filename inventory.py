@@ -14,7 +14,7 @@ while validator:
         total_cost = price * quantity #calculating the total cost of the item
         validator = False
     except ValueError:
-        print("Invalid input. Please enter the correct data type.")
+        print("Invalid input. Please enter again the item information with the correct data type.")
             
 print(f"Product: {name} || Price: ${price:.2f} || Quantity: {quantity} || Total Cost: ${total_cost:.2f}") 
 #This programm will prompt the user to enter the name, price, and quantity of an item, and then it will calculate and display the total cost of the item. 
